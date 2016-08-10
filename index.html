@@ -18,6 +18,16 @@ permalink: /
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     </head>
     <body>
+
+      <h2>{{ page.title }}</h2>
+　　         <p>最新文章</p>
+
+　　　　      {% for post in site.posts %}
+            <ol>
+　　　　　　   <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            </ol>
+            {% endfor %}
+
         <div class="content">
             {% if site.front_img %}
             <img src="{{ site.front_img_path }}" id="fullscreen">
@@ -35,23 +45,23 @@ permalink: /
                     <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a></li>
                     {% endif %}
 
-                    {% if site.codepen_username %}
+                    <!--{% if site.codepen_username %}
                     <li><a class="fa fa-2x fa-codepen" href="https://codepen.io/{{ site.codepen_username }}"><span class="description">CodePen</span></a></li>
-                    {% endif %}
+                    {% endif %}-->
 
                     {% if site.facebook_username %}
                     <li><a class="fa fa-2x fa-facebook" href="https://facebook.com/{{ site.facebook_username }}"><span class="description">Facebook</span></a></li>
                     {% endif %}
 
-                    {% if site.vk_username %}
+                    <!--{% if site.vk_username %}
                     <li><a class="fa fa-2x fa-vk" href="https://vk.com/{{ site.vk_username }}"><span class="description">ВКонтакте</span></a></li>
-                    {% endif %}
+                    {% endif %}-->
 
                     {% if site.twitter_username %}
                     <li><a class="fa fa-2x fa-twitter" href="https://twitter.com/{{ site.twitter_username }}"><span class="description">Twitter</span></a></li>
                     {% endif %}
 
-                    {% if site.google_plus_username %}
+                    <!--{% if site.google_plus_username %}
                     <li><a class="fa fa-2x fa-google-plus" href="https://plus.google.com/+{{ site.google_plus_username }}"><span class="description">Google +</span></a></li>
                     {% endif %}
 
@@ -97,15 +107,15 @@ permalink: /
 
                     {% if site.tumblr_username %}
                     <li><a class="fa fa-2x fa-tumblr" href="https://{{ site.tumblr_username }}.tumblr.com/"><span class="description">Tumblr</span></a></li>
-                    {% endif %}
+                    {% endif %}-->
 
                     {% if site.weibo_username %}
                     <li><a class="fa fa-2x fa-weibo" href="https://weibo.com/{{ site.weibo_username }}"><span class="description">微博</span></a></li>
                     {% endif %}
 
-                    {% if site.blog_url %}
+                    <!--{% if site.blog_url %}
                     <li><a class="fa fa-2x fa-tags" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Blog</span></a></li>
-                    {% endif %}
+                    {% endif %}-->
 
                     {% if site.email %}
                     <li><a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>

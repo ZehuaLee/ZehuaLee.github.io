@@ -9,16 +9,16 @@ description: "Simple and Clear"
 
 # Site settings
 title: LiZehua.log
-email: leezehua@outlook.com
+email: ritakuka.leezehua@gmail.com
 description: Simple and Clear
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ZehuaLee.github.io" # the base hostname & protocol for your site
 twitter_username: ritakuka
 github_username:  ZehuaLee
-codepen_username: codepen_Li
+# codepen_username: codepen_Li
 facebook_username: Li Zehua
-vk_username: vk_Li
-avatar: yes
+# vk_username: vk_Li
+# avatar: yes
 avatar_img_path: "imgs/stark.jpg"
 
 front_img: yes
