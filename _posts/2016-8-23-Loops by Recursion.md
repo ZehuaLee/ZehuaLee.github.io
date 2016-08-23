@@ -2,21 +2,19 @@
 category: Scala
 title: 'Loops by Recursion'
 
-<!-- type: 'POST' -->
+type: 'POST'
 
 layout: nil
 ---
 
 在面向过程和面向对象的语言中，往往提供显式的Loop方法， 利用循环条件进行控制，例如在C＋＋，Java中的一段循环来遍历一串数：
-```
-bool example(){
+```bool example(){
   for(int i = 0; i < NUM; i++){
     if（fun（i） ＝＝ key）
   return true
   }
   return false
-}
-```
+} ```
 
 但是，在Scala中使用这种循环方式就显得很low，而且往往要使用变量var而不是常量val，与Scala的理念相悖。在Scala中往往用TailRecursion来代替循环，我们都知道，尾递归是可以和循环体互相转化且调用后仍使用同一块栈空间，不同于普通递归，不会引起overflow的问题。
 曾经对尾递归很发怵，但是今天发现了一些感觉，可以简单的使用尾递归来替代循环体。
