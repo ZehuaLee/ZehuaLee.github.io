@@ -1,6 +1,5 @@
 ---
 category: Scala
-path: '/Scala'
 title: 'Loops by Recursion'
 type: 'POST'
 
