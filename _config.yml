@@ -1,7 +1,6 @@
 ---
-exclude: ['README.markdown']
-permalink: ':title'
+exclude:  ['README.markdown']
+permalink:  ':title'
 pygments: true
 safe: false
-title: 'LiZehua's Blog'
----
+title:  'LiZehua's Blog'
