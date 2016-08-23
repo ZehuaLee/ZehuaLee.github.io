@@ -1,6 +1,7 @@
 ---
 category: Scala
 title: 'Loops by Recursion'
+
 <!-- type: 'POST' -->
 
 layout: nil
