@@ -1,10 +1,7 @@
 ---
-category: templetes
 path: '/stuff'
 title: 'Get stuff'
-type: 'GET'
 
-layout: nil
 ---
 
 This method allows users to retrieve stuff.

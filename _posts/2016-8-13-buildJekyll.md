@@ -1,10 +1,7 @@
 ---
-category: templetes
-path: '/stuff/:id'
-title: 'Update a thing'
-type: 'PUT'
 
-layout: nil
+title: 'Update a thing'
+
 ---
 
 This method allows the user to retrieve his stuff.

@@ -1,7 +1,6 @@
 ---
 title: 'a new trial'
 
-layout: nil
 ---
 
 ### Success

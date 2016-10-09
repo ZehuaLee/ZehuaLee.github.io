@@ -2,9 +2,6 @@
 category: Scala
 title: 'Loops by Recursion'
 
-type: 'POST'
-
-layout: nil
 ---
 
 在面向过程和面向对象的语言中，往往提供显式的Loop方法， 利用循环条件进行控制，例如在C＋＋，Java中的一段循环来遍历一串数：

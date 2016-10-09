@@ -1,10 +1,7 @@
 ---
-category: jekyll
-path:
-title: '在Mac上部署jekyll'
-type: 'Solved'
 
-layout: nil
+title: '在Mac上部署jekyll'
+
 ---
 
 

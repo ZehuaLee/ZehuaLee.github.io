@@ -1,8 +1,5 @@
 ---
-path: '/login'
 title: '说明'
-
-layout: nil
 ---
 
 这个博客的模版从 ```http://jekyllthemes.org/page7/ ``` 下载
