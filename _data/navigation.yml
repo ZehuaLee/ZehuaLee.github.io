@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "About Gem5"
-    url: /_gem5/
+    url: https://zehualee.github.io/gem5/
 
   - title: "Profile"
-    url: /Profile.md
+    url: https://zehualee.github.io/Profile.md
