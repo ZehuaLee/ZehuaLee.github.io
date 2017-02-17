@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "About Gem5"
-    url: /gem5
+    url: /_gem5/
 
   - title: "Sample Navigation Link 2"
     url: /Profile.md
