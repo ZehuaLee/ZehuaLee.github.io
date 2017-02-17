@@ -18,17 +18,14 @@ sshfs 是通过利用ssh建立一个到远程服务器的一个安全访问来�
 
 ## Related problem?
 
-目前我遇到的问题，就在于网络不稳定时连接中断后，再次在命令行使用挂载命令：
-` sshfs -C -o reconnect -p 22 sshID@Server.a.b.cn:/远程的/目录 /本地的/目录
+目前我遇到的问题，就在于网络不稳定时连接中断后，再次在命令行使用挂载命令: `sshfs -C -o reconnect -p 22 sshID@Server.a.b.cn:/远程的/目录 /本地的/目录
 `
 
-这时候会出现:
-` mount_osxfusefs: mount point /Users/ritakuka/klab_gem5 is itself on a OSXFUSE volume
+这时候会出现: `mount_osxfusefs: mount point /Users/ritakuka/klab_gem5 is itself on a OSXFUSE volume
 
 `
 
-或是其他挂载不上的问题，这时候就需要把sshfs的进程杀掉：
-`  ps aux | grep sshfs #get the process id
+或是其他挂载不上的问题，这时候就需要把sshfs的进程杀掉: `  ps aux | grep sshfs #get the process id
     kill PID
 `
 
