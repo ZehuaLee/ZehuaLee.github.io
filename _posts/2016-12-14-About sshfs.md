@@ -27,8 +27,12 @@ sshfs -C -o reconnect -p 22 sshID@Server.a.b.cn:/远程的/目录 /本地的/目
 ```shell
 mount_osxfusefs: mount point /Users/ritakuka/klab_gem5 is itself on a OSXFUSE volume
 ```
+或者
+```shell
+  fuse: bad mount point '/Users/ritakuka/klab_gem5': Input/output error
+```
 
-或是其他挂载不上的问题，这时候就需要把sshfs的进程杀掉:
+这时候就需要把sshfs的进程杀掉:
 ```shell
 ps aux | grep sshfs #get the process id
 kill PID
