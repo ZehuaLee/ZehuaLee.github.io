@@ -25,11 +25,11 @@ sshfs -C -o reconnect -p 22 sshID@Server.a.b.cn:/远程的/目录 /本地的/目
 
 这时候会出现问题:
 ```shell
-mount_osxfusefs: mount point /Users/ritakuka/klab_gem5 is itself on a OSXFUSE volume
+mount_osxfusefs: mount point /我的挂载/目录 is itself on a OSXFUSE volume
 ```
 或者
 ```shell
-  fuse: bad mount point '/Users/ritakuka/klab_gem5': Input/output error
+  fuse: bad mount point '/我的挂载/目录': Input/output error
 ```
 
 这时候就需要把sshfs的进程杀掉:
