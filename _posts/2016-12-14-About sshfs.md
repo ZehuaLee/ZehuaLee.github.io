@@ -23,7 +23,7 @@ sshfs 是通过利用ssh建立一个到远程服务器的一个安全访问来�
 sshfs -C -o reconnect -p 22 sshID@Server.a.b.cn:/远程的/目录 /本地的/目录
 ```
 
-这时候会出现:
+这时候会出现问题:
 ```shell
 mount_osxfusefs: mount point /Users/ritakuka/klab_gem5 is itself on a OSXFUSE volume
 ```
@@ -34,7 +34,7 @@ ps aux | grep sshfs #get the process id
 kill PID
 ```
 
-找出sshfs进程号并杀掉该进程，然后重新
+找出sshfs进程号并杀掉该进程，然后重新挂载
 ```shell
 sshfs -C -o reconnect -p 22 sshID@Server.a.b.cn:/远程的/目录 /本地的/目录
 ```
