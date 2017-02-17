@@ -25,7 +25,8 @@ sshfs 是通过利用ssh建立一个到远程服务器的一个安全访问来�
 `
 
 或是其他挂载不上的问题，这时候就需要把sshfs的进程杀掉:
-`ps aux | grep sshfs #get the process id 
+`ps aux | grep sshfs #get the process id
+   
 kill PID
 `
 
