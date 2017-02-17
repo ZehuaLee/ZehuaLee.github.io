@@ -15,9 +15,13 @@ title: 'About Gem5 Memory Model'
 3. 使用不同类型的内存和互联网络（总线或是其他连接网络）。
 
 ####1 以CPU为中心：能足够精确的获取内存系统行为。
+
 ####2 以内存为中心：调查内存子系统和互联体系结构。
+
 （此处应该有个图）
+
 ####3 两个世界
+
 以计算为中心的模拟：
 （1）比如说 SimpleScalar，Simics，Asim等
 以访问（communication－centric）为中心的模拟
