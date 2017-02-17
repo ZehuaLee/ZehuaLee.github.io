@@ -1,7 +1,7 @@
 ---
-category: Gem5
+
 title: 'About Gem5 Memory Model'
-_
+
 ---
 
 最近在学习如何修改gem5的内存模块，找了相关的材料没找到，目前只有Gem5官方tutorial比较全面，但是只有英文版，而且较为抽象，这篇就姑且当作是对已有文档的翻译吧。这里献上英文文档地址：
@@ -17,4 +17,3 @@ _
 以计算为中心的模拟：
 （1）比如说 SimpleScalar，Simics，Asim等
 以访问（communication－centric）为中心的模拟
- 
