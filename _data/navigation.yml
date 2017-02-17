@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Sample Navigation Link"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/navigation/
+  - title: "About Gem5"
+    url: /gem5
 
   - title: "Sample Navigation Link 2"
-    url: /
+    url: /Profile.md
