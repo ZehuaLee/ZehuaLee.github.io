@@ -21,7 +21,7 @@ nSum problem 是在leetcode的数组类（Array）算法中比较靠前的题目
 ## 附上代码：
 
 
-```
+```python
     class Solution(object):
     def twoSum(self, nums, target):
         results = []
